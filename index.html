@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>C02_LTT</title>
+    </head>
+    <body>
+        <form id="thongTinCoBan">
+            <fieldset>
+                <legend>Thông tin cơ bản</legend>
+                <label for="hoTen">Họ và tên</label>
+                <input type="text" id="hoTen" />
+                <br /><br />
+
+                <!--  -->
+                <label for="ngaySinh">Ngày sinh</label>
+                <input type="date" id="ngaySinh" />
+                <br /><br />
+
+                <!--  -->
+                <span>Giới tính</span>
+                <input type="radio" name="gender" id="gioiTinh1" value="" />
+                <label for="gioiTinh1">Nam</label>
+                <input type="radio" name="gender" id="gioiTinh2" />
+                <label for="gioiTinh2">Nữ</label>
+                <input type="radio" name="gender" id="gioiTinh3" />
+                <label for="gioiTinh3">Khác</label>
+                <br /><br />
+
+                <!--  -->
+                <span>Tổ hợp xét tuyển</span>
+                <br />
+                <input type="checkbox" id="toan" />
+                <label for="toan">Toán</label>
+                <br />
+                <input type="checkbox" id="ly" />
+                <label for="ly">Lý</label>
+                <br />
+                <input type="checkbox" id="hoa" />
+                <label for="hoa">Hóa</label>
+                <br />
+                <input type="checkbox" id="anh" />
+                <label for="anh">Anh</label>
+            </fieldset>
+        </form>
+        <form id="thongTinLienLac">
+            <fieldset>
+                <legend>Thông tin liên lạc</legend>
+                <label for="email">Email</label>
+                <input type="email" id="email" />
+
+                <!--  -->
+                <br /><br />
+                <label for="sdt">Số điện thoại</label>
+                <input type="text" />
+            </fieldset>
+        </form>
+        <br />
+        <input type="submit" name="" id="" value="Gửi" />
+    </body>
+</html>
